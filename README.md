@@ -73,3 +73,6 @@ ctl_all stop
 export JAVA_OPTS="-Dsolr.solr.home=${OPENSHIFT_DATA_DIR}solr.home"
 ctl_all start
 ```
+
+###License
+This code is dedicated to the public domain to the maximum extent permitted by applicable law, pursuant to CC0 http://creativecommons.org/publicdomain/zero/1.0/
