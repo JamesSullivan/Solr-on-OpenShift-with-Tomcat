@@ -20,7 +20,7 @@ Assuming your *tomcat* directory from step 2 and *solr-4.6.1* directory from ste
     cp -r solr-4.6.1/example/lib/ext/* tomcat/diy/tomcat/lib/
     cp solr-4.6.1/example/resources/log4j.properties tomcat/diy/tomcat/lib/
 
-### copy the solr config files over
+### Copy the solr config files over
     cp -r solr-4.6.1/example/solr tomcat/diy/tomcat/
 
 ### Tomcat Security
