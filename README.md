@@ -22,6 +22,9 @@ Assuming your *tomcat* directory from step 2 and *solr-4.6.1* directory from ste
 
 ### Copy the solr config files over
     cp -r solr-4.6.1/example/solr tomcat/diy/tomcat/
+    
+### Custom configuration of solrconfig.xml and schema.xml files
+If you need a custom configuration for your solr set up now is the time to edit the files in tomcat/diy/tomcat/solr/collection1/conf
 
 ### Tomcat Security
 Edit tomcat/diy/tomcat/conf/tomcat-users.xml. Replace everything within the ``` <tomcat-user>``` element with (using your own username and password) and save:
