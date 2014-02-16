@@ -22,7 +22,10 @@ Assuming your *tomcat* directory from step 2 and *solr-4.6.1* directory from ste
 
 ### Copy the solr config files over
     cp -r solr-4.6.1/example/solr tomcat/diy/tomcat/
-### Edit tomcat3/.openshift/action_hooks/start  and add
+    
+### Edit tomcat/.openshift/action_hooks/start and add
+(not tested but needed because solr folder not deploying)
+
      rsync -r --delete --exclude ".*" ${OPENSHIFT_REPO_DIR}/diy/tomcat/solr/ ${OPENSHIFT_DATA_DIR}/tomcat/solr/
     
 ### Custom configuration of solrconfig.xml and schema.xml files
